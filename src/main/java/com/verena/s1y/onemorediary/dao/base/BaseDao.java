@@ -123,18 +123,18 @@ public class BaseDao<T, P> {
 	}
 
 	/**
-	 * 通用根据主键查询单条记录
+	 * 通用根据传入项查询单条记录
 	 *
 	 * @param pk 主键
 	 * @return 单条记录
 	 */
-	public T findOneById(P pk) {
+	public List< T > findOneByKeyValue(P pk, String key) {
 		String tableName = getTableName();
-		String sql = StrUtil.format("SELECT * FROM {table} where id = ?", Dict.create().set("table", tableName));
+		String sql = StrUtil.format("SELECT * FROM {table} where "+ key +" = ?", Dict.create().set("table", tableName));
 		RowMapper<T> rowMapper = new BeanPropertyRowMapper<>(clazz);
 		log.debug("【执行SQL】SQL：{}", sql);
 		log.debug("【执行SQL】参数：{}", JSONUtil.toJsonStr(pk));
-		return jdbcTemplate.queryForObject(sql, new Object[]{pk}, rowMapper);
+		return jdbcTemplate.query(sql, new Object[]{pk}, rowMapper);
 	}
 
 	/**

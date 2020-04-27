@@ -23,7 +23,7 @@ import java.util.List;
  * @modified: yangkai.shen
  */
 @Repository
-public class UserDao extends BaseDao<User, Long> {
+public class UserDao extends BaseDao<User, Object> {
 
 	@Autowired
 	public UserDao(JdbcTemplate jdbcTemplate) {
@@ -62,13 +62,13 @@ public class UserDao extends BaseDao<User, Long> {
 	}
 
 	/**
-	 * 根据主键获取用户
+	 * 根据Key获取用户
 	 *
-	 * @param id 主键id
+	 * @param key
 	 * @return id对应的用户
 	 */
-	public User selectById(Long id) {
-		return super.findOneById(id);
+	public List<User> selectByKey(Object value, String key) {
+		return super.findOneByKeyValue(value,key);
 	}
 
 	/**

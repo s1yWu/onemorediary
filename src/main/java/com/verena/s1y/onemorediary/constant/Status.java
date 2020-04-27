@@ -11,7 +11,9 @@ public enum  Status {
 
     JSON_DATA_ERROR(1002,"JSON Data 对象异常"),
 
-    SQL_INSERT_ERROR(40001,"数据库插入异常");
+    SQL_INSERT_ERROR(40001,"数据库插入异常"),
+
+    WECHAT_GET_SECRET_ERROR(1001,"微信获取唯一ID异常");
 
     /**
      * 状态码
