@@ -69,6 +69,16 @@ public class ApiResponse {
         return ofStatue(Status.OK,data,(String) request.getAttribute("token"));
     }
 
+    /**
+     *
+     * @param data
+     * @param
+     * @return
+     */
+    public static ApiResponse ofSuccess(Object data,String token ){
+        return ofStatue(Status.OK,data,token);
+    }
+
     public static ApiResponse ofFail(Status status,Object data){
         if (requestAttributes == null)
             requestAttributes =(ServletRequestAttributes) RequestContextHolder.getRequestAttributes();

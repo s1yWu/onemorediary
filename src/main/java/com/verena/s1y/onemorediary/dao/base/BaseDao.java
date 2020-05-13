@@ -128,7 +128,7 @@ public class BaseDao<T, P> {
 	 * @param pk 主键
 	 * @return 单条记录
 	 */
-	public List< T > findOneByKeyValue(P pk, String key) {
+	public List< T > findOneByKeyValue(P pk, String key) throws NullPointerException {
 		String tableName = getTableName();
 		String sql = StrUtil.format("SELECT * FROM {table} where "+ key +" = ?", Dict.create().set("table", tableName));
 		RowMapper<T> rowMapper = new BeanPropertyRowMapper<>(clazz);
@@ -143,7 +143,7 @@ public class BaseDao<T, P> {
 	 * @param t 查询条件
 	 * @return 对象列表
 	 */
-	public List<T> findByExample(T t) {
+	public List<T> findByExample(T t)  throws NullPointerException{
 		String tableName = getTableName(t);
 		List<Field> filterField = getField(t, true);
 		List<String> columnList = getColumns(filterField);

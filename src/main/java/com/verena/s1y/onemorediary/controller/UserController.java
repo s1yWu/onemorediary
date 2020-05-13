@@ -1,17 +1,16 @@
 package com.verena.s1y.onemorediary.controller;
 
-import cn.hutool.http.HttpConnection;
-import cn.hutool.json.JSONArray;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 import com.verena.s1y.onemorediary.constant.Status;
 import com.verena.s1y.onemorediary.exception.BaseException;
 import com.verena.s1y.onemorediary.interceptor.Login;
 import com.verena.s1y.onemorediary.pojo.User;
 import com.verena.s1y.onemorediary.pojo.UserWeChat;
 import com.verena.s1y.onemorediary.pojo.base.ApiResponse;
+import com.verena.s1y.onemorediary.server.TokenServer;
 import com.verena.s1y.onemorediary.server.UserServer;
+import com.verena.s1y.onemorediary.server.UserWeChatServer;
 import com.verena.s1y.onemorediary.validator.IsMobile;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -35,6 +34,9 @@ public class UserController {
 
 
     private final UserServer userServer;
+    private final UserWeChatServer userWeChatServer;
+    private final TokenServer tokenServer;
+
 
     private final String APPID= "appid=wxc9b7a56c4ba1cc56&secret=a75f5ba3117caab23016b8e646d767eb";
 
@@ -43,8 +45,10 @@ public class UserController {
     private final String GRANT_TYPE=  "grant_type=authorization_code";
 
     @Autowired
-    public UserController(UserServer userServer) {
+    public UserController(UserServer userServer, UserWeChatServer userWeChatServer, TokenServer tokenServer) {
         this.userServer = userServer;
+        this.userWeChatServer = userWeChatServer;
+        this.tokenServer = tokenServer;
     }
 
     @Login
@@ -57,7 +61,9 @@ public class UserController {
             return ApiResponse.ofFail(Status.WECHAT_GET_SECRET_ERROR,userWeChat);
         userWeChat.setSecret(map.get("session_key"));
         userWeChat.setUid(map.get("openid"));
-       return uid;
+        UserWeChat userWeChats = userWeChatServer.updateWeChatUserIfNotExist(userWeChat);
+        System.out.println(userWeChats.toString());
+       return ApiResponse.ofSuccess(userWeChatServer.updateWeChatUserIfNotExist(userWeChat),tokenServer.createToken(userWeChat.getId_user(),"noting"));
     }
 
     private String getWeChatUserUid(String code) {

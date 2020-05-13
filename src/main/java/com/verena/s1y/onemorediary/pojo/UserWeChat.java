@@ -11,10 +11,10 @@ public class UserWeChat {
 
     @Pk
     @Column(name = "id_wechat")
-    private int idWeChat;
+    private int id_wechat;
 
     @Column(name = "id_user")
-    private int idUser;
+    private int id_user;
 
     private String avatarUrl;
 

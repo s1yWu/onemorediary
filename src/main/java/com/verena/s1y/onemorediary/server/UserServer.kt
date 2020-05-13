@@ -13,6 +13,6 @@ interface UserServer {
 
     fun deleteUser(id : Int) : Boolean
 
-    fun updateWeChatUserIfNotExist(userWeChat : UserWeChat)
+
 
 }
