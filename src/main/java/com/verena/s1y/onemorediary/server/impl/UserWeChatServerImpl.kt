@@ -7,15 +7,19 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
 @Service
-class UserWeChatServerImpl :UserWeChatServer {
+class UserWeChatServerImpl : UserWeChatServer {
 
 
-    var userWeChatDao : UserWeChatDao ?= null
+    var userWeChatDao: UserWeChatDao? = null
 
-   @Autowired
-    fun UserWeChatServerImpl(userWeChatDao: UserWeChatDao){
+    @Autowired
+    fun UserWeChatServerImpl(userWeChatDao: UserWeChatDao) {
         this.userWeChatDao = userWeChatDao
     }
 
     override fun updateWeChatUserIfNotExist(userWeChat: UserWeChat) = userWeChatDao?.updateWeChatUserIfNotExist(userWeChat)
+
+    override fun updateWeChatUserId(wechatId: String, id: String): Boolean {
+       return userWeChatDao?.updateWeChatUseId(wechatId,id)!!
+    }
 }

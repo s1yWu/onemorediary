@@ -18,19 +18,20 @@ import javax.servlet.http.HttpServletRequest
 @ResponseBody
 class OneMoreDiaryExceptionHandles {
 
-    @ExceptionHandler(value = Exception::class)
+    @ExceptionHandler(value = [Exception::class])
     fun exceptionHandle(e :Exception, request : HttpServletRequest ) : ApiResponse = when(e){
         is BindException ->{
             val error = e.allErrors[0] as ObjectError
-            ApiResponse.ofException(BaseException(1000, error.defaultMessage, request.getAttribute("token").toString()))
+            ApiResponse.ofException(BaseException(1000, error.defaultMessage, null))
         }
         is BaseException ->{
             ApiResponse.ofException(e)
         }
         is RuntimeException ->{
-            ApiResponse.ofException(BaseException(3000, e.message, request.getAttribute("token").toString()))
+
+            ApiResponse.ofException(BaseException(3000, e.message,null ))
         }
-        else -> ApiResponse.ofException(BaseException(Status.UNKNOWN_ERROR, request.getAttribute("token").toString()))
+        else -> ApiResponse.ofException(BaseException(Status.UNKNOWN_ERROR, e.message))
     }
 
 }

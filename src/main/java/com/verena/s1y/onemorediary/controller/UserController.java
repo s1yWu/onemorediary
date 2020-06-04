@@ -14,6 +14,8 @@ import com.verena.s1y.onemorediary.server.UserWeChatServer;
 import com.verena.s1y.onemorediary.validator.IsMobile;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -27,8 +29,11 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Map;
 
+import static com.verena.s1y.onemorediary.constant.Status.PHONE_ALREADY_BIND;
+
 @Api(tags = "用户管理")
 @RestController
+@Slf4j
 @RequestMapping(value = "/one-more-dairy/user")
 public class UserController {
 
@@ -62,7 +67,7 @@ public class UserController {
         userWeChat.setSecret(map.get("session_key"));
         userWeChat.setUid(map.get("openid"));
         UserWeChat userWeChats = userWeChatServer.updateWeChatUserIfNotExist(userWeChat);
-        System.out.println(userWeChats.toString());
+
        return ApiResponse.ofSuccess(userWeChatServer.updateWeChatUserIfNotExist(userWeChat),tokenServer.createToken(userWeChat.getId_user(),"noting"));
     }
 
@@ -73,6 +78,7 @@ public class UserController {
                     APP_SECRET + "&" +
                     GRANT_TYPE + "&js_code=" +code).openConnection();
             int responseCode = 0;
+
             responseCode = connection.getResponseCode();
             InputStream inputStream;
             if (200 <= responseCode && responseCode <= 299) {
@@ -92,13 +98,21 @@ public class UserController {
         }
     }
 
-
+    @Login
     @PostMapping("/")
     @ApiOperation(value = "创建用户", notes = "根据User对象创建用户")
     public ApiResponse createUser(
             @Valid User user){
-        if (userServer.insertUser(user))
+        if (userServer.selectUser(user.getPhone(),"phone")!= null)
+            return ApiResponse.ofFail(PHONE_ALREADY_BIND,user);
+
+        if (userServer.insertUser(user)){
+            user = userServer.selectUser(user.getIdWeChat(),"id_wechat");
+            System.out.println(user.toString());
+            userWeChatServer.updateWeChatUserId(user.getIdWeChat()+"",user.getId()+"");
             return ApiResponse.ofSuccess(user);
+        }
+
         else
             return ApiResponse.ofFail(Status.SQL_INSERT_ERROR,user);
     }

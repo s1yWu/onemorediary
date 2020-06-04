@@ -27,4 +27,7 @@ public class UserWeChatDao extends BaseDao<UserWeChat,Object> {
         return resultList.get(0);
     }
 
+    public Boolean updateWeChatUseId(String weChatId,String id){
+      return   super.updateByKeyValue("id_user",id,weChatId,"id_wechat") > 0;
+    }
 }

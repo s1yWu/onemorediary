@@ -1,0 +1,1636 @@
+[INFO  2020-06-03 09:22:56] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 15792 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 09:22:56] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 09:22:56] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 09:22:57] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-03 09:22:57] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-03 09:22:57] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 09:22:57] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 09:22:57] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 09:22:57] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1459 ms
+[INFO  2020-06-03 09:22:58] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 09:22:58] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 09:22:58] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 09:22:58] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 09:22:58] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 09:22:58] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-03 09:22:58] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-03 09:22:58] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 2.898 seconds (JVM running for 6.963)
+[INFO  2020-06-03 09:23:48] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 17320 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 09:23:48] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 09:23:48] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 09:23:51] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 09:23:51] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 09:23:52] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 09:23:52] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 09:23:52] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 09:23:52] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 4.969 seconds (JVM running for 6.476)
+[INFO  2020-06-03 09:23:53] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-03 09:23:56] [main] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-03 09:23:56] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 09:23:56] [SpringContextShutdownHook] HikariDataSource.close(350) | HikariPool-1 - Shutdown initiated...
+[INFO  2020-06-03 09:23:56] [SpringContextShutdownHook] HikariDataSource.close(352) | HikariPool-1 - Shutdown completed.
+[INFO  2020-06-03 09:36:20] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 14340 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 09:36:20] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 09:36:21] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 09:36:22] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (http)
+[INFO  2020-06-03 09:36:22] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 09:36:22] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 09:36:22] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 09:36:22] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 09:36:22] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1633 ms
+[INFO  2020-06-03 09:36:23] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 09:36:23] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 09:36:23] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 09:36:23] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 09:36:23] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 09:36:23] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 09:36:23] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 80 (http) with context path ''
+[INFO  2020-06-03 09:36:23] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.259 seconds (JVM running for 8.093)
+[INFO  2020-06-03 09:36:28] [http-nio-80-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-03 09:36:28] [http-nio-80-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-03 09:36:28] [http-nio-80-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 10 ms
+[INFO  2020-06-03 09:37:18] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 17744 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 09:37:18] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 09:37:19] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 09:37:21] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 09:37:22] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 09:37:23] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 09:37:23] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 09:37:23] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 09:37:23] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 5.3 seconds (JVM running for 6.845)
+[INFO  2020-06-03 09:37:23] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-03 09:37:27] [main] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-03 09:37:27] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 09:37:27] [SpringContextShutdownHook] HikariDataSource.close(350) | HikariPool-1 - Shutdown initiated...
+[INFO  2020-06-03 09:37:27] [SpringContextShutdownHook] HikariDataSource.close(352) | HikariPool-1 - Shutdown completed.
+[INFO  2020-06-03 10:29:45] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 15340 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 10:29:45] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 10:29:46] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 10:29:47] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https)
+[INFO  2020-06-03 10:29:47] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:29:47] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 10:29:47] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 10:29:47] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 10:29:47] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1464 ms
+[INFO  2020-06-03 10:29:47] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 10:29:47] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:29:48] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 10:29:48] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 10:29:48] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 10:29:48] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:29:48] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:29:48] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 10:29:48] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:29:48] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:29:48] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 10:29:48] [main] SpringApplication.reportFailure(826) | Application run failed
+org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:215)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.verena.s1y.onemorediary.OnemorediaryApplication.main(OnemorediaryApplication.java:13)
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:231)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:278)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	... 10 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1038)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: jsse.alias_no_key_entry
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:217)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1227)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:592)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1035)
+	... 14 common frames omitted
+Caused by: java.io.IOException: jsse.alias_no_key_entry
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:328)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:247)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97)
+	... 20 common frames omitted
+[INFO  2020-06-03 10:29:48] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:36:11] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 18188 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 10:36:11] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 10:36:11] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 10:36:13] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 8080 (http)
+[INFO  2020-06-03 10:36:13] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:36:13] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 10:36:13] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 10:36:13] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 10:36:13] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 10:36:13] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1557 ms
+[INFO  2020-06-03 10:36:13] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 10:36:13] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:36:14] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 10:36:14] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 10:36:14] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 10:36:14] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:36:14] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:36:14] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 10:36:14] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:36:14] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:36:14] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 10:36:14] [main] SpringApplication.reportFailure(826) | Application run failed
+org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:215)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.verena.s1y.onemorediary.OnemorediaryApplication.main(OnemorediaryApplication.java:33)
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:231)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:278)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	... 10 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1038)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: jsse.alias_no_key_entry
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:217)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1227)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:592)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1035)
+	... 14 common frames omitted
+Caused by: java.io.IOException: jsse.alias_no_key_entry
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:328)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:247)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97)
+	... 20 common frames omitted
+[INFO  2020-06-03 10:36:14] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:38:13] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 20684 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 10:38:13] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 10:38:13] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 10:38:14] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (https) 8080 (http)
+[INFO  2020-06-03 10:38:14] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 10:38:14] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 10:38:14] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 10:38:14] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 10:38:15] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 10:38:15] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1889 ms
+[INFO  2020-06-03 10:38:15] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 10:38:15] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:38:16] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 10:38:16] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 10:38:16] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 10:38:16] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 10:38:16] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 10:38:16] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 10:38:16] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 10:38:16] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 10:38:16] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 10:38:16] [main] SpringApplication.reportFailure(826) | Application run failed
+org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:215)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.verena.s1y.onemorediary.OnemorediaryApplication.main(OnemorediaryApplication.java:33)
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:231)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:278)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	... 10 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1038)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: jsse.alias_no_key_entry
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:217)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1227)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:592)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1035)
+	... 14 common frames omitted
+Caused by: java.io.IOException: jsse.alias_no_key_entry
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:328)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:247)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97)
+	... 20 common frames omitted
+[INFO  2020-06-03 10:38:16] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:39:49] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 19016 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 10:39:49] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 10:39:49] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 10:39:50] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 8080 (http)
+[INFO  2020-06-03 10:39:50] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:39:50] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 10:39:50] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 10:39:50] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 10:39:50] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 10:39:50] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1507 ms
+[INFO  2020-06-03 10:39:51] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 10:39:51] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:39:51] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 10:39:51] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 10:39:51] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 10:39:51] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:39:51] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 10:39:51] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 443 (https) 8080 (http) with context path ''
+[INFO  2020-06-03 10:39:51] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.216 seconds (JVM running for 7.046)
+[INFO  2020-06-03 10:40:44] [https-jsse-nio-443-exec-9] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-03 10:40:44] [https-jsse-nio-443-exec-9] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-03 10:40:44] [https-jsse-nio-443-exec-9] DispatcherServlet.initServletBean(547) | Completed initialization in 6 ms
+[INFO  2020-06-03 10:45:04] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 20748 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 10:45:04] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 10:45:04] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 10:45:08] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 10:45:09] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:45:09] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 10:45:09] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 10:45:10] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 10:45:10] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 7.23 seconds (JVM running for 9.001)
+[INFO  2020-06-03 10:45:11] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-03 10:45:15] [main] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-03 10:45:15] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:45:15] [SpringContextShutdownHook] HikariDataSource.close(350) | HikariPool-1 - Shutdown initiated...
+[INFO  2020-06-03 10:45:18] [SpringContextShutdownHook] HikariDataSource.close(352) | HikariPool-1 - Shutdown completed.
+[INFO  2020-06-03 10:46:09] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 23392 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 10:46:09] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 10:46:10] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 10:46:11] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 80 (http)
+[INFO  2020-06-03 10:46:11] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:46:11] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 10:46:11] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 10:46:11] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 10:46:11] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 10:46:11] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1967 ms
+[INFO  2020-06-03 10:46:12] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 10:46:12] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:46:12] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 10:46:12] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 10:46:12] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 10:46:13] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 10:46:13] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 10:46:13] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+[INFO  2020-06-03 10:46:13] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 4.005 seconds (JVM running for 8.55)
+[INFO  2020-06-03 10:46:24] [http-nio-80-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-03 10:46:24] [http-nio-80-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-03 10:46:24] [http-nio-80-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 5 ms
+[INFO  2020-06-03 10:47:41] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 23232 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 10:47:41] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 10:47:42] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 10:47:45] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 10:47:45] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:47:46] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 10:47:46] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 10:47:46] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 10:47:47] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 6.413 seconds (JVM running for 8.114)
+[INFO  2020-06-03 10:47:48] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-03 10:47:52] [main] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-03 10:47:52] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 10:47:52] [SpringContextShutdownHook] HikariDataSource.close(350) | HikariPool-1 - Shutdown initiated...
+[INFO  2020-06-03 10:47:53] [SpringContextShutdownHook] HikariDataSource.close(352) | HikariPool-1 - Shutdown completed.
+[INFO  2020-06-03 11:19:43] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 23732 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 11:19:43] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 11:19:44] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 11:19:47] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 11:19:48] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 11:19:48] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 11:19:48] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 11:19:48] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 11:19:49] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 5.678 seconds (JVM running for 7.279)
+[INFO  2020-06-03 11:19:49] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-03 11:19:52] [main] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-03 11:19:53] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 11:19:53] [SpringContextShutdownHook] HikariDataSource.close(350) | HikariPool-1 - Shutdown initiated...
+[INFO  2020-06-03 11:19:53] [SpringContextShutdownHook] HikariDataSource.close(352) | HikariPool-1 - Shutdown completed.
+[INFO  2020-06-03 14:34:50] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 1576 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 14:34:50] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 14:34:51] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 14:34:52] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (https) 80 (http)
+[INFO  2020-06-03 14:34:52] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:34:52] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 14:34:52] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 14:34:52] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 14:34:52] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 14:34:52] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1820 ms
+[INFO  2020-06-03 14:34:53] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 14:34:53] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:34:54] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 14:34:54] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 14:34:54] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 14:34:54] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:34:54] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:34:54] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 14:34:54] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:34:54] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:34:54] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 14:34:54] [main] LoggingFailureAnalysisReporter.report(40) | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+[INFO  2020-06-03 14:34:54] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:36:07] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 22884 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 14:36:07] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 14:36:07] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 14:36:08] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (https) 80 (http)
+[INFO  2020-06-03 14:36:08] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:36:08] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 14:36:08] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 14:36:08] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 14:36:08] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 14:36:08] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1584 ms
+[INFO  2020-06-03 14:36:09] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 14:36:09] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:36:09] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 14:36:09] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 14:36:09] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 14:36:09] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:36:09] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:36:09] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 14:36:09] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:36:09] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 14:36:09] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 14:36:09] [main] LoggingFailureAnalysisReporter.report(40) | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+[INFO  2020-06-03 14:36:09] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:36:58] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 21792 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 14:36:58] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 14:36:58] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 14:37:00] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 80 (http)
+[INFO  2020-06-03 14:37:00] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 14:37:00] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 14:37:00] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 14:37:00] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 14:37:00] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 14:37:00] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1901 ms
+[INFO  2020-06-03 14:37:00] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 14:37:00] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:37:01] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 14:37:01] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 14:37:01] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 14:37:01] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 14:37:01] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 14:37:01] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+[INFO  2020-06-03 14:37:01] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.723 seconds (JVM running for 7.73)
+[INFO  2020-06-03 14:51:15] [http-nio-80-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-03 14:51:15] [http-nio-80-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-03 14:51:15] [http-nio-80-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 15 ms
+[INFO  2020-06-03 14:52:27] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 27456 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 14:52:27] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 14:52:27] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 14:52:31] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 14:52:31] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:52:32] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 14:52:32] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 14:52:32] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 14:52:32] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 5.801 seconds (JVM running for 7.452)
+[INFO  2020-06-03 14:52:33] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[ERROR 2020-06-03 14:52:55] [main] HikariPool.throwPoolInitializationException(587) | HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao.findOneByKeyValue(BaseDao.java:149)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao$$FastClassBySpringCGLIB$$da351cc7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.verena.s1y.onemorediary.dao.UserDao$$EnhancerBySpringCGLIB$$16b63833.findOneByKeyValue(<generated>)
+	at com.verena.s1y.onemorediary.server.impl.UserServerImpl.selectUser(UserServerImpl.kt:21)
+	at com.verena.s1y.onemorediary.OnemorediaryApplicationTests.selectUserByKey(OnemorediaryApplicationTests.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 96 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 99 common frames omitted
+[INFO  2020-06-03 14:52:56] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:53:48] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 26504 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 14:53:48] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 14:53:48] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 14:53:49] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8080 (https) 80 (http)
+[INFO  2020-06-03 14:53:49] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO  2020-06-03 14:53:49] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 14:53:49] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 14:53:49] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 14:53:49] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 14:53:49] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1727 ms
+[INFO  2020-06-03 14:53:50] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 14:53:50] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 14:53:50] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 14:53:50] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 14:53:50] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 14:53:50] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-8080"]
+[INFO  2020-06-03 14:53:51] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 14:53:51] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8080 (https) 80 (http) with context path ''
+[INFO  2020-06-03 14:53:51] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.516 seconds (JVM running for 7.542)
+[INFO  2020-06-03 15:02:06] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 28824 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:02:06] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:02:06] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:02:07] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 80 (http)
+[INFO  2020-06-03 15:02:07] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:02:07] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:02:07] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:02:07] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:02:07] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:02:07] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1729 ms
+[INFO  2020-06-03 15:02:08] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:02:08] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:02:08] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:02:08] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:02:08] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:02:09] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:02:09] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:02:09] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+[INFO  2020-06-03 15:02:09] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.857 seconds (JVM running for 13.505)
+[INFO  2020-06-03 15:02:45] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 29260 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:02:45] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:02:45] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:02:49] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:02:50] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:02:50] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:02:50] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:02:50] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:02:51] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 6.908 seconds (JVM running for 8.725)
+[INFO  2020-06-03 15:02:51] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[ERROR 2020-06-03 15:03:14] [main] HikariPool.throwPoolInitializationException(587) | HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao.findOneByKeyValue(BaseDao.java:149)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao$$FastClassBySpringCGLIB$$da351cc7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.verena.s1y.onemorediary.dao.UserDao$$EnhancerBySpringCGLIB$$16ea39a2.findOneByKeyValue(<generated>)
+	at com.verena.s1y.onemorediary.server.impl.UserServerImpl.selectUser(UserServerImpl.kt:21)
+	at com.verena.s1y.onemorediary.OnemorediaryApplicationTests.selectUserByKey(OnemorediaryApplicationTests.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 96 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 99 common frames omitted
+[INFO  2020-06-03 15:03:14] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:04:14] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 26720 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:04:14] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:04:14] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:04:16] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (https) 80 (http)
+[INFO  2020-06-03 15:04:16] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:04:16] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:04:16] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:04:16] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:04:16] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:04:16] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2047 ms
+[INFO  2020-06-03 15:04:17] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:04:17] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:04:17] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:04:17] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:04:17] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:04:17] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:04:17] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:04:17] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 15:04:17] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:04:17] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:04:17] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 15:04:17] [main] LoggingFailureAnalysisReporter.report(40) | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+[INFO  2020-06-03 15:04:17] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:11:29] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 1244 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:11:29] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:11:30] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:11:31] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (https) 80 (http)
+[INFO  2020-06-03 15:11:31] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:11:31] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:11:31] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:11:31] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:11:32] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:11:32] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2090 ms
+[INFO  2020-06-03 15:11:32] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:11:32] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:11:32] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:11:32] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:11:32] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:11:33] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:11:33] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:11:33] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 15:11:33] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:11:33] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:11:33] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 15:11:33] [main] LoggingFailureAnalysisReporter.report(40) | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+[INFO  2020-06-03 15:11:33] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:17:10] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 1448 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:17:10] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:17:11] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:17:12] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (https) 80 (http)
+[INFO  2020-06-03 15:17:12] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:17:12] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:17:12] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:17:12] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:17:12] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:17:12] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1569 ms
+[INFO  2020-06-03 15:17:12] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:17:13] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:17:13] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:17:13] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:17:13] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:17:13] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:17:13] [main] Http11NioProtocol.log(173) | Pausing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:17:13] [main] StandardService.log(173) | Stopping service [Tomcat]
+[INFO  2020-06-03 15:17:13] [main] Http11NioProtocol.log(173) | Stopping ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:17:13] [main] Http11NioProtocol.log(173) | Destroying ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:17:13] [main] ConditionEvaluationReportLoggingListener.logMessage(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR 2020-06-03 15:17:13] [main] LoggingFailureAnalysisReporter.report(40) | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+[INFO  2020-06-03 15:17:13] [main] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:18:59] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 4056 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:18:59] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:19:00] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:19:01] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 80 (http)
+[INFO  2020-06-03 15:19:01] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:19:01] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:19:01] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:19:01] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:19:01] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:19:01] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1501 ms
+[INFO  2020-06-03 15:19:01] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:19:01] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:19:02] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:19:02] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:19:02] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:19:02] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:19:02] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:19:02] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+[INFO  2020-06-03 15:19:02] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.49 seconds (JVM running for 7.466)
+[INFO  2020-06-03 15:21:19] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 3712 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:21:19] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:21:20] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:21:21] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8080 (https) 80 (http)
+[INFO  2020-06-03 15:21:21] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-8080"]
+[INFO  2020-06-03 15:21:21] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:21:21] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:21:21] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:21:21] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:21:21] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2208 ms
+[INFO  2020-06-03 15:21:22] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:21:22] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:21:23] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:21:23] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:21:23] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:21:23] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-8080"]
+[INFO  2020-06-03 15:21:23] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-80"]
+[INFO  2020-06-03 15:21:23] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8080 (https) 80 (http) with context path ''
+[INFO  2020-06-03 15:21:23] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 4.803 seconds (JVM running for 14.326)
+[INFO  2020-06-03 15:22:43] [http-nio-80-exec-2] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-03 15:22:43] [http-nio-80-exec-2] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-03 15:22:43] [http-nio-80-exec-2] DispatcherServlet.initServletBean(547) | Completed initialization in 8 ms
+[INFO  2020-06-03 15:23:15] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 14452 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:23:15] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:23:15] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:23:16] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 8080 (http)
+[INFO  2020-06-03 15:23:16] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:23:16] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 15:23:16] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:23:16] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:23:17] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:23:17] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1908 ms
+[INFO  2020-06-03 15:23:17] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:23:17] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:23:18] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:23:18] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:23:18] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:23:18] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:23:18] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 15:23:18] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 443 (https) 8080 (http) with context path ''
+[INFO  2020-06-03 15:23:18] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.943 seconds (JVM running for 8.804)
+[INFO  2020-06-03 15:24:09] [main] OnemorediaryApplicationTests.logStarting(55) | Starting OnemorediaryApplicationTests on s1y-PC with PID 5300 (started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:24:09] [main] OnemorediaryApplicationTests.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:24:10] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:24:14] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:24:15] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:24:15] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:24:15] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:24:15] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:24:16] [main] OnemorediaryApplicationTests.logStarted(61) | Started OnemorediaryApplicationTests in 6.775 seconds (JVM running for 8.52)
+[INFO  2020-06-03 15:24:16] [main] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[ERROR 2020-06-03 15:24:38] [main] HikariPool.throwPoolInitializationException(587) | HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao.findOneByKeyValue(BaseDao.java:149)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao$$FastClassBySpringCGLIB$$da351cc7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.verena.s1y.onemorediary.dao.UserDao$$EnhancerBySpringCGLIB$$16ea39a2.findOneByKeyValue(<generated>)
+	at com.verena.s1y.onemorediary.server.impl.UserServerImpl.selectUser(UserServerImpl.kt:21)
+	at com.verena.s1y.onemorediary.OnemorediaryApplicationTests.selectUserByKey(OnemorediaryApplicationTests.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 96 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 99 common frames omitted
+[INFO  2020-06-03 15:24:39] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:28:39] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 15108 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:28:39] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:28:40] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:28:41] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 80 (https) 8080 (http)
+[INFO  2020-06-03 15:28:41] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:28:41] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 15:28:41] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:28:41] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:28:42] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:28:42] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2132 ms
+[INFO  2020-06-03 15:28:42] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:28:42] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:28:42] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:28:43] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:28:43] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:28:43] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-80"]
+[INFO  2020-06-03 15:28:43] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 15:28:43] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 80 (https) 8080 (http) with context path ''
+[INFO  2020-06-03 15:28:43] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 4.154 seconds (JVM running for 8.854)
+[INFO  2020-06-03 15:30:11] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 14676 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-03 15:30:11] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-03 15:30:12] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-03 15:30:13] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 443 (https) 8080 (http)
+[INFO  2020-06-03 15:30:13] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:30:13] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 15:30:13] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-03 15:30:13] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-03 15:30:14] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-03 15:30:14] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1988 ms
+[INFO  2020-06-03 15:30:14] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-03 15:30:14] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-03 15:30:14] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-03 15:30:14] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-03 15:30:14] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-03 15:30:15] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["https-jsse-nio-443"]
+[INFO  2020-06-03 15:30:15] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-03 15:30:15] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 443 (https) 8080 (http) with context path ''
+[INFO  2020-06-03 15:30:15] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.74 seconds (JVM running for 8.141)
+[INFO  2020-06-03 15:30:57] [https-jsse-nio-443-exec-8] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-03 15:30:57] [https-jsse-nio-443-exec-8] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-03 15:30:57] [https-jsse-nio-443-exec-8] DispatcherServlet.initServletBean(547) | Completed initialization in 9 ms
+[INFO  2020-06-04 09:19:30] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 14780 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 09:19:30] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 09:19:30] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 09:19:31] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http) 8080 (http)
+[INFO  2020-06-04 09:19:31] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 09:19:31] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-04 09:19:31] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 09:19:31] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 09:19:31] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 09:19:31] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1585 ms
+[INFO  2020-06-04 09:19:32] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 09:19:32] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 09:19:32] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 09:19:32] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 09:19:32] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 09:19:32] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 09:19:32] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-04 09:19:32] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) 8080 (http) with context path ''
+[INFO  2020-06-04 09:19:32] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.184 seconds (JVM running for 7.568)
+[INFO  2020-06-04 09:20:15] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 09:20:15] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 09:20:15] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 9 ms
+[INFO  2020-06-04 09:20:15] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[ERROR 2020-06-04 09:20:37] [http-nio-8081-exec-1] HikariPool.throwPoolInitializationException(587) | HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao.findOneByKeyValue(BaseDao.java:149)
+	at com.verena.s1y.onemorediary.dao.UserWeChatDao.updateWeChatUserIfNotExist(UserWeChatDao.java:22)
+	at com.verena.s1y.onemorediary.dao.UserWeChatDao$$FastClassBySpringCGLIB$$ca596f1e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.verena.s1y.onemorediary.dao.UserWeChatDao$$EnhancerBySpringCGLIB$$77c8e9cb.updateWeChatUserIfNotExist(<generated>)
+	at com.verena.s1y.onemorediary.server.impl.UserWeChatServerImpl.updateWeChatUserIfNotExist(UserWeChatServerImpl.kt:20)
+	at com.verena.s1y.onemorediary.controller.UserController.Login(UserController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 82 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 85 common frames omitted
+[INFO  2020-06-04 09:21:05] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 15904 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 09:21:05] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 09:21:05] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 09:21:06] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 09:21:06] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 09:21:06] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 09:21:06] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 09:21:06] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 09:21:06] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1556 ms
+[INFO  2020-06-04 09:21:07] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 09:21:07] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 09:21:07] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 09:21:07] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 09:21:07] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 09:21:07] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 09:21:07] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 09:21:07] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 2.982 seconds (JVM running for 6.841)
+[INFO  2020-06-04 09:21:27] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 09:21:27] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 09:21:27] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 5 ms
+[INFO  2020-06-04 09:21:29] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[ERROR 2020-06-04 09:21:51] [http-nio-8081-exec-1] HikariPool.throwPoolInitializationException(587) | HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at com.verena.s1y.onemorediary.dao.base.BaseDao.findOneByKeyValue(BaseDao.java:149)
+	at com.verena.s1y.onemorediary.dao.UserWeChatDao.updateWeChatUserIfNotExist(UserWeChatDao.java:22)
+	at com.verena.s1y.onemorediary.dao.UserWeChatDao$$FastClassBySpringCGLIB$$ca596f1e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.verena.s1y.onemorediary.dao.UserWeChatDao$$EnhancerBySpringCGLIB$$c59d1854.updateWeChatUserIfNotExist(<generated>)
+	at com.verena.s1y.onemorediary.server.impl.UserWeChatServerImpl.updateWeChatUserIfNotExist(UserWeChatServerImpl.kt:20)
+	at com.verena.s1y.onemorediary.controller.UserController.Login(UserController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 82 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 85 common frames omitted
+[INFO  2020-06-04 09:41:52] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 15008 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 09:41:52] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 09:41:53] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 09:41:54] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 09:41:54] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 09:41:54] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 09:41:54] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 09:41:54] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 09:41:54] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1666 ms
+[INFO  2020-06-04 09:41:55] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 09:41:55] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 09:41:55] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 09:41:55] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 09:41:55] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 09:41:55] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 09:41:55] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 09:41:55] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.462 seconds (JVM running for 7.787)
+[INFO  2020-06-04 09:42:47] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 09:42:47] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 09:42:47] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 9 ms
+[INFO  2020-06-04 09:42:48] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-04 09:42:48] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-04 09:44:19] [http-nio-8081-exec-3] FileController.uploadPic(34) | -----图片类型-----image/png
+[INFO  2020-06-04 09:44:19] [http-nio-8081-exec-3] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.SJKigjiKFbJG4cda1e838bcdc61aed924f7f2ebfea0e.png
+[INFO  2020-06-04 10:39:29] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 16604 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 10:39:29] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 10:39:29] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 10:39:31] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 10:39:31] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 10:39:31] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 10:39:31] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 10:39:31] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 10:39:31] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1552 ms
+[INFO  2020-06-04 10:39:31] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 10:39:31] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 10:39:31] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 10:39:31] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 10:39:31] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 10:39:32] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 10:39:32] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 10:39:32] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.074 seconds (JVM running for 9.609)
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 5 ms
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-1] FileController.uploadPic(34) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-2] FileController.uploadPic(34) | -----图片类型-----image/png
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-1] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.6Fvdso0MojSp4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-2] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.ZXJU05w7upIH4cda1e838bcdc61aed924f7f2ebfea0e.png
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-1] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 10:53:24] [http-nio-8081-exec-2] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 10:56:41] [http-nio-8081-exec-3] FileController.uploadPic(34) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 10:56:41] [http-nio-8081-exec-3] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.EFr2U7mGPo5C4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 10:56:41] [http-nio-8081-exec-3] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 10:56:41] [http-nio-8081-exec-4] FileController.uploadPic(34) | -----图片类型-----image/png
+[INFO  2020-06-04 10:56:41] [http-nio-8081-exec-4] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.o3NCqQoQlczR4cda1e838bcdc61aed924f7f2ebfea0e.png
+[INFO  2020-06-04 10:56:41] [http-nio-8081-exec-4] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 10:57:11] [http-nio-8081-exec-5] FileController.uploadPic(34) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 10:57:11] [http-nio-8081-exec-5] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.EFr2U7mGPo5C4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 10:57:11] [http-nio-8081-exec-5] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 10:57:11] [http-nio-8081-exec-6] FileController.uploadPic(34) | -----图片类型-----image/png
+[INFO  2020-06-04 10:57:11] [http-nio-8081-exec-6] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.o3NCqQoQlczR4cda1e838bcdc61aed924f7f2ebfea0e.png
+[INFO  2020-06-04 10:57:11] [http-nio-8081-exec-6] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 11:02:56] [http-nio-8081-exec-7] FileController.uploadPic(34) | -----图片类型-----image/png
+[INFO  2020-06-04 11:02:56] [http-nio-8081-exec-7] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.bVHoFFmUi5ob369bafafc4d0abb77edfba640db47038.png
+[INFO  2020-06-04 11:02:56] [http-nio-8081-exec-7] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 11:02:56] [http-nio-8081-exec-8] FileController.uploadPic(34) | -----图片类型-----image/png
+[INFO  2020-06-04 11:02:56] [http-nio-8081-exec-8] FileController.uploadPic(40) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.XTnqHmnahtsy0d783e2795b4aef0cd60bed69ea54d0b.png
+[INFO  2020-06-04 11:02:56] [http-nio-8081-exec-8] FileController.uploadPic(44) | 上传成功
+[INFO  2020-06-04 11:29:04] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 4560 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 11:29:04] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 11:29:04] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 11:29:06] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 11:29:06] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 11:29:06] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 11:29:06] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 11:29:06] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 11:29:06] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1557 ms
+[INFO  2020-06-04 11:29:06] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 11:29:06] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 11:29:07] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 11:29:07] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 11:29:07] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 11:29:07] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 11:29:07] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 11:29:07] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.094 seconds (JVM running for 7.205)
+[INFO  2020-06-04 14:02:14] [http-nio-8081-exec-2] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 14:02:14] [http-nio-8081-exec-2] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 14:02:14] [http-nio-8081-exec-2] DispatcherServlet.initServletBean(547) | Completed initialization in 8 ms
+[INFO  2020-06-04 14:02:46] [http-nio-8081-exec-3] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-04 14:02:47] [http-nio-8081-exec-3] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-04 14:03:09] [http-nio-8081-exec-4] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:03:09] [http-nio-8081-exec-4] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.KSU7ivT08g8u4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 14:03:09] [http-nio-8081-exec-4] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:03:09] [http-nio-8081-exec-5] FileController.uploadPic(33) | -----图片类型-----image/png
+[INFO  2020-06-04 14:03:09] [http-nio-8081-exec-5] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.lCinSKMdXabM0d783e2795b4aef0cd60bed69ea54d0b.png
+[INFO  2020-06-04 14:03:09] [http-nio-8081-exec-5] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:10:56] [http-nio-8081-exec-7] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:10:56] [http-nio-8081-exec-7] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.d3Rg5hhhyICv4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 14:10:56] [http-nio-8081-exec-7] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:13:17] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 21176 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 14:13:17] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 14:13:17] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 14:13:19] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 14:13:19] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 14:13:19] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 14:13:19] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 14:13:19] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 14:13:19] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1622 ms
+[INFO  2020-06-04 14:13:19] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 14:13:19] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 14:13:20] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 14:13:20] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 14:13:20] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 14:13:20] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 14:13:20] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 14:13:20] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.278 seconds (JVM running for 7.459)
+[INFO  2020-06-04 14:13:30] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 14:13:30] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 14:13:30] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 5 ms
+[INFO  2020-06-04 14:13:30] [http-nio-8081-exec-1] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:13:30] [http-nio-8081-exec-1] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.d3Rg5hhhyICv4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 14:13:30] [http-nio-8081-exec-1] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:14:13] [http-nio-8081-exec-2] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-04 14:14:14] [http-nio-8081-exec-2] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-04 14:14:38] [http-nio-8081-exec-3] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:14:38] [http-nio-8081-exec-3] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.zEaVMMOtaMkz4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 14:14:38] [http-nio-8081-exec-3] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:15:49] [http-nio-8081-exec-5] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:15:49] [http-nio-8081-exec-5] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.cJy5K8FPpbnN4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 14:15:49] [http-nio-8081-exec-5] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:19:57] [http-nio-8081-exec-9] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:19:57] [http-nio-8081-exec-9] FileController.uploadPic(39) | --------图片名称--------下载.jpg
+[INFO  2020-06-04 14:19:57] [http-nio-8081-exec-9] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:20:37] [http-nio-8081-exec-10] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:20:37] [http-nio-8081-exec-10] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.WClRmqmwAUN04b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 14:20:37] [http-nio-8081-exec-10] FileController.uploadPic(43) | 上传成功
+[INFO  2020-06-04 14:39:45] [http-nio-8081-exec-2] FileController.uploadPic(33) | -----图片类型-----image/jpeg
+[INFO  2020-06-04 14:39:45] [http-nio-8081-exec-2] FileController.uploadPic(39) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.EH3qYkO6202z4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-04 14:39:45] [http-nio-8081-exec-2] FileController.uploadPic(43) | 上传成功
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@29920ba6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41db6811 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7df74fd4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4401a4f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f83856 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b794398 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5cb726cc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@155817b1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55a2b7c4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 15:48:54] [http-nio-8081-exec-6] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4165b6b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[INFO  2020-06-04 15:49:24] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 20084 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 15:49:24] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 15:49:24] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 15:49:25] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 15:49:25] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 15:49:25] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 15:49:25] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 15:49:26] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 15:49:26] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1868 ms
+[INFO  2020-06-04 15:49:26] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 15:49:26] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 15:49:27] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 15:49:27] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 15:49:27] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 15:49:27] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 15:49:27] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 15:49:27] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.684 seconds (JVM running for 8.686)
+[INFO  2020-06-04 15:49:40] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 15:49:40] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 15:49:40] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 13 ms
+[INFO  2020-06-04 15:49:43] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-04 15:49:44] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-04 15:54:30] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 25928 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 15:54:30] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 15:54:30] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 15:54:32] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 15:54:32] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 15:54:32] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 15:54:32] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 15:54:32] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 15:54:32] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2349 ms
+[INFO  2020-06-04 15:55:14] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 15:55:14] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 15:55:15] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 15:55:15] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 15:55:15] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 15:55:15] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 15:55:15] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 15:55:15] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 46.102 seconds (JVM running for 52.34)
+[INFO  2020-06-04 15:55:25] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 15:55:25] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 15:55:25] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 13 ms
+[INFO  2020-06-04 15:55:48] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-04 15:55:49] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[WARN  2020-06-04 16:00:27] [HikariPool-1 housekeeper] HikariPool.run(779) | HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m32s221ms317µs755ns).
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3543d5c3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3f2f5d57 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14e96abc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7fb979c6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@54d582f6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11d5b8de (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4eb68cd2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7a75ab8b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2cf5401 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:04:38] [http-nio-8081-exec-5] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e600fce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-04 16:06:30] [HikariPool-1 housekeeper] HikariPool.run(779) | HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m2s81ms509µs642ns).
+[INFO  2020-06-04 16:06:31] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 16:06:31] [SpringContextShutdownHook] HikariDataSource.close(350) | HikariPool-1 - Shutdown initiated...
+[INFO  2020-06-04 16:06:31] [SpringContextShutdownHook] HikariDataSource.close(352) | HikariPool-1 - Shutdown completed.
+[INFO  2020-06-04 16:06:50] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 28536 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 16:06:50] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 16:06:51] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 16:06:54] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 16:06:54] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 16:06:54] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 16:06:54] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 16:06:54] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 16:06:54] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 3494 ms
+[INFO  2020-06-04 16:06:56] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 16:06:57] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 16:06:57] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 16:06:57] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 16:06:57] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 16:06:57] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 16:06:57] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 16:06:57] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 7.503 seconds (JVM running for 13.548)
+[INFO  2020-06-04 16:06:59] [SpringContextShutdownHook] ThreadPoolTaskExecutor.shutdown(218) | Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 16:07:17] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 27972 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-04 16:07:17] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-04 16:07:18] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-04 16:07:19] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-04 16:07:19] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 16:07:19] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-04 16:07:19] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-04 16:07:19] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-04 16:07:19] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2062 ms
+[INFO  2020-06-04 16:07:20] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-04 16:07:20] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-04 16:07:20] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-04 16:07:20] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-04 16:07:21] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-04 16:07:21] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-04 16:07:21] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-04 16:07:21] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 4.061 seconds (JVM running for 9.126)
+[INFO  2020-06-04 16:07:48] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-04 16:07:48] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-04 16:07:48] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 8 ms
+[INFO  2020-06-04 16:07:48] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-04 16:07:49] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.

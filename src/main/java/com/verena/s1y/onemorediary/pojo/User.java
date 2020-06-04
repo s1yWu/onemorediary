@@ -14,7 +14,6 @@ import javax.validation.constraints.Pattern;
 
 @Data
 @Table(name = "user")
-
 @ApiModel(discriminator = "登陆用户实体类")
 public class User {
 
@@ -32,11 +31,11 @@ public class User {
 
     @Column(name = "is_bind_wechat")
     @ApiModelProperty("用户是否绑定微信")
-    private boolean isBindWeChat;
+    private boolean is_bind_wechat;
 
     @Column(name = "id_wechat")
     @ApiModelProperty("用户微信ID")
-    private int idWeChat;
+    private int id_wechat;
 
     public int getId() {
         return id;
@@ -63,18 +62,18 @@ public class User {
     }
 
     public boolean isBindWeChat() {
-        return isBindWeChat;
+        return is_bind_wechat;
     }
 
     public void setBindWeChat(boolean bindWeChat) {
-        isBindWeChat = bindWeChat;
+        is_bind_wechat = bindWeChat;
     }
 
     public int getIdWeChat() {
-        return idWeChat;
+        return id_wechat;
     }
 
     public void setIdWeChat(int idWeChat) {
-        this.idWeChat = idWeChat;
+        this.id_wechat = idWeChat;
     }
 }

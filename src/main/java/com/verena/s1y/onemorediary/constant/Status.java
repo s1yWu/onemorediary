@@ -11,6 +11,10 @@ public enum  Status {
 
     JSON_DATA_ERROR(1002,"JSON Data 对象异常"),
 
+    PHONE_ALREADY_BIND(1003,"手机号已绑定"),
+
+    IMAGE_FILE_ERROR(1004,"该文件不是图片"),
+
     SQL_INSERT_ERROR(40001,"数据库插入异常"),
 
     WECHAT_GET_SECRET_ERROR(1001,"微信获取唯一ID异常");

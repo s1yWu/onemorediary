@@ -6,4 +6,6 @@ interface UserWeChatServer {
 
     fun updateWeChatUserIfNotExist(userWeChat : UserWeChat): UserWeChat?
 
+    fun updateWeChatUserId(wechatId : String ,id : String) : Boolean
+
 }

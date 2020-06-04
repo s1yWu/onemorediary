@@ -10,29 +10,29 @@ import org.springframework.stereotype.Service
 @Service
 class UserServerImpl : UserServer {
 
-    var userDao : UserDao ?= null
+    var userDao: UserDao? = null
 
     @Autowired
-    fun UserServerImpl(userDao: UserDao){
+    fun UserServerImpl(userDao: UserDao) {
         this.userDao = userDao
     }
 
-    override fun selectUser(value : Any ,key : String): User? {
-        val  result =  userDao?.findOneByKeyValue(value,key)!!
+    override fun selectUser(value: Any, key: String): User? {
+        val result = userDao?.findOneByKeyValue(value, key)!!
         if (result.size < 1)
             return null
         return result[0]!!
     }
 
-    override fun insertUser(user: User) = with(user){
-        userDao?.insert(user)!! > 0
+    override fun insertUser(user: User): Boolean {
+        val insertStatue = userDao?.insert(user)!!
+
+        return insertStatue > 0
     }
 
-    override fun updateUser(user: User) = userDao?.update(user,user.id.toLong())!! >0
+    override fun updateUser(user: User) = userDao?.update(user, user.id.toLong())!! > 0
 
-    override fun deleteUser(id: Int) = userDao?.delete(id.toLong())!! >0
-
-
+    override fun deleteUser(id: Int) = userDao?.delete(id.toLong())!! > 0
 
 
 }

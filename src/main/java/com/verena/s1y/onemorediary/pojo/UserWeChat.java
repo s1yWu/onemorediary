@@ -5,6 +5,7 @@ import com.verena.s1y.onemorediary.annotation.Pk;
 import com.verena.s1y.onemorediary.annotation.Table;
 import lombok.Data;
 
+
 @Data
 @Table(name = "user_from_wechat")
 public class UserWeChat {

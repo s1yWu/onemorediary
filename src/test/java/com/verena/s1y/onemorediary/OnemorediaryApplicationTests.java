@@ -21,24 +21,24 @@ class OnemorediaryApplicationTests {
         this.server = server;
     }
 
-
-    @Test
-    void contextLoads() throws UnsupportedEncodingException {
-        long time = System.currentTimeMillis();
-        Token token = new Token(1,"null",time+1000*60*60*3,time );
-        String enToken = AesEncodeUtil.encrypt(new Gson().toJson(token));
-        System.out.println(enToken.replaceAll("\r|\n*",""));
-        String dcToken = AesEncodeUtil.decrypt(enToken);
-        System.out.println(dcToken);
-    }
-
-    @Test
-    void selectUserByKey() {
-       User user =  server.selectUser("100","id");
-       if (null == user)
-           System.out.println("user is null");
-       else
-           System.out.println(user.toString());
-    }
+//
+//    @Test
+//    void contextLoads() throws UnsupportedEncodingException {
+//        long time = System.currentTimeMillis();
+//        Token token = new Token(1,"null",time+1000*60*60*3,time );
+//        String enToken = AesEncodeUtil.encrypt(new Gson().toJson(token));
+//        System.out.println(enToken.replaceAll("\r|\n*",""));
+//        String dcToken = AesEncodeUtil.decrypt(enToken);
+//        System.out.println(dcToken);
+//    }
+//
+//    @Test
+//    void selectUserByKey() {
+//       User user =  server.selectUser("100","id");
+//       if (null == user)
+//           System.out.println("user is null");
+//       else
+//           System.out.println(user.toString());
+//    }
 
 }

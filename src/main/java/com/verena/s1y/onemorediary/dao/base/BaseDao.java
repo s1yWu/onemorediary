@@ -123,6 +123,18 @@ public class BaseDao<T, P> {
 	}
 
 	/**
+	 * 通用根据主键更新，自增列需要添加 {@link Pk} 注解
+	 */
+	protected Integer updateByKeyValue(String updateKey,String updateValue, P pk,String selectKey) {
+		String tableName = getTableName();
+		String updateKeyValue = updateKey + "=" + updateValue;
+		String sql = StrUtil.format("UPDATE {table} SET "+ updateKeyValue+" where "+selectKey +" = ?", Dict.create().set("table", tableName));
+		log.debug("【执行SQL】SQL：{}", sql);
+		log.debug("【执行SQL】参数：{}", JSONUtil.toJsonStr(updateKey));
+		return jdbcTemplate.update(sql,pk);
+	}
+
+	/**
 	 * 通用根据传入项查询单条记录
 	 *
 	 * @param pk 主键
