@@ -40,7 +40,7 @@ public class AuthorizationInterceptor implements HandlerInterceptor {
 
         // 如果还是没有token,则抛异常
         if (StringUtils.isEmpty(token)) {
-            throw new BaseException(2000,"token 为空","not find token");
+            throw new BaseException(9999,"token 为空","not find token");
         }
 
         try {
@@ -48,11 +48,11 @@ public class AuthorizationInterceptor implements HandlerInterceptor {
                 request.setAttribute(TOKEN, tokenServer.updateToken(token).replaceAll("\r|\n*",""));
                 return true;
             }else {
-                throw new BaseException(2001,"token 解析异常","token error");
+                throw new BaseException(9999,"token 解析异常","token error");
             }
         }catch (Exception e){
             request.setAttribute(TOKEN, token);
-            throw new BaseException(2001,"token 解析异常","token error");
+            throw new BaseException(9999,"token 解析异常","token error");
         }
 
     }

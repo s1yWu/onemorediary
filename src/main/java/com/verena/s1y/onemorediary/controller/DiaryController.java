@@ -1,6 +1,7 @@
 package com.verena.s1y.onemorediary.controller;
 
 import com.verena.s1y.onemorediary.constant.Status;
+import com.verena.s1y.onemorediary.pojo.Diary;
 import com.verena.s1y.onemorediary.pojo.base.ApiResponse;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
@@ -15,7 +16,7 @@ import java.io.IOException;
 @Api(value = "图片上传")
 @Slf4j
 @RequestMapping(value = "/one-more-dairy/diary/")
-public class FileController {
+public class DiaryController {
 
     public static final String filePath = "d:/testimage/";
 
@@ -26,8 +27,9 @@ public class FileController {
 
 
     @PostMapping(value = "diary")
-    public ApiResponse add(){
-        return ApiResponse.ofSuccess(null);
+    public ApiResponse add(Diary diary){
+        log.info(diary.toString());
+        return ApiResponse.ofSuccess(diary);
     }
 
     @PostMapping(value = "image")
