@@ -22,16 +22,15 @@ class OneMoreDiaryExceptionHandles {
     fun exceptionHandle(e :Exception, request : HttpServletRequest ) : ApiResponse = when(e){
         is BindException ->{
             val error = e.allErrors[0] as ObjectError
-            ApiResponse.ofException(BaseException(1000, error.defaultMessage, null))
+            ApiResponse.ofException(BaseException(1000, error.defaultMessage, request.getAttribute("token")as String?))
         }
         is BaseException ->{
             ApiResponse.ofException(e)
         }
         is RuntimeException ->{
-
-            ApiResponse.ofException(BaseException(3000, e.message,null ))
+            ApiResponse.ofException(BaseException(3000, e.message,request.getAttribute("token")as String? ))
         }
-        else -> ApiResponse.ofException(BaseException(Status.UNKNOWN_ERROR, e.message))
+        else -> ApiResponse.ofException(BaseException(Status.UNKNOWN_ERROR, request.getAttribute("token")as String?))
     }
 
 }

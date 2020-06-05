@@ -24,7 +24,7 @@ class TokenServerImpl : TokenServer {
 
     override fun createToken(id: Int, token: String): String {
         val time = System.currentTimeMillis()
-        val tokenBean = Token(id,token,time + 1000*60*60*3,time )
+        val tokenBean = Token(id,token,time + 1000*60*60*72,time )
         return AesEncodeUtil.encrypt(Gson().toJson(tokenBean))
     }
 

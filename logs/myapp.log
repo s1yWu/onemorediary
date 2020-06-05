@@ -1685,3 +1685,334 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 [INFO  2020-06-04 17:24:25] [http-nio-8081-exec-1] DiaryController.add(31) | Diary(id_user=0, time_full=2020-06-04 17:00:07, time_simple=2020-06-04 周四, wea=晴, wea_img=duoyun, html=<p>asdsadsada</p><p>dsadsada</p>, images=[], now_city=null)
 [INFO  2020-06-04 17:24:58] [http-nio-8081-exec-2] DiaryController.add(31) | Diary(id_user=0, time_full=2020-06-04 17:00:07, time_simple=2020-06-04 周四, wea=晴, wea_img=duoyun, html=<p>asdsadsada</p><p>dsadsada</p>, images=[], now_city=null)
 [INFO  2020-06-04 17:25:47] [http-nio-8081-exec-3] DiaryController.add(31) | Diary(id_user=0, time_full=2020-06-04 17:00:07, time_simple=2020-06-04 周四, wea=晴, wea_img=duoyun, html=<p>0002</p><p><br></p><p>131231</p><p><br></p><p>123131</p>, images=[], now_city=北京市)
+[INFO  2020-06-05 10:01:43] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 10364 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:01:43] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:01:44] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:01:45] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:01:45] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:01:45] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:01:45] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:01:45] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:01:45] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1728 ms
+[INFO  2020-06-05 10:01:46] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:01:46] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:01:46] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:01:46] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:01:46] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:01:46] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:01:46] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:01:46] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.281 seconds (JVM running for 9.478)
+[INFO  2020-06-05 10:02:47] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:02:47] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:02:47] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 6 ms
+[INFO  2020-06-05 10:05:57] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 16148 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:05:57] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:05:57] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:05:59] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:05:59] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:05:59] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:05:59] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:05:59] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:05:59] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1552 ms
+[INFO  2020-06-05 10:05:59] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:05:59] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:06:00] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:06:00] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:06:00] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:06:00] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:06:00] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:06:00] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 2.972 seconds (JVM running for 6.783)
+[INFO  2020-06-05 10:06:25] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:06:25] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:06:25] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 11 ms
+[INFO  2020-06-05 10:06:26] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 10:06:26] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 10:14:44] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 6192 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:14:44] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:14:44] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:14:45] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:14:45] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:14:45] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:14:45] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:14:46] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:14:46] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1525 ms
+[INFO  2020-06-05 10:14:46] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:14:46] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:14:46] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:14:47] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:14:47] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:14:47] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:14:47] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:14:47] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.279 seconds (JVM running for 7.013)
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 7 ms
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-1] DiaryController.uploadPic(50) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-1] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.l3NJFfAZpYJx4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-1] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-2] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 10:15:24] [http-nio-8081-exec-2] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 10:17:56] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 16652 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:17:56] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:17:56] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:17:58] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:17:58] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:17:58] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:17:58] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:17:58] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:17:58] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2207 ms
+[INFO  2020-06-05 10:17:59] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:17:59] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:17:59] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:17:59] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:17:59] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:17:59] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:17:59] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:17:59] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 4.273 seconds (JVM running for 8.683)
+[INFO  2020-06-05 10:18:36] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:18:36] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:18:36] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 7 ms
+[INFO  2020-06-05 10:18:36] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 10:18:37] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 10:20:28] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 11528 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:20:28] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:20:28] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:20:30] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:20:30] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:20:30] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:20:30] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:20:30] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:20:30] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1701 ms
+[INFO  2020-06-05 10:20:30] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:20:30] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:20:31] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:20:31] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:20:31] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:20:31] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:20:31] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:20:31] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.411 seconds (JVM running for 7.499)
+[INFO  2020-06-05 10:20:39] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:20:39] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:20:39] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 7 ms
+[INFO  2020-06-05 10:20:39] [http-nio-8081-exec-1] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`images`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 10:20:39] [http-nio-8081-exec-1] BaseDao.insert(77) | 【执行SQL】参数：[0,0,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p>测试<\/p><p>111<\/p><p><br><\/p><p>222<\/p><p><br><\/p>",[],"北京市"]
+[INFO  2020-06-05 10:20:39] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 10:20:40] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 10:35:09] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 15512 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:35:09] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:35:09] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:35:11] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:35:11] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:35:11] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:35:11] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:35:11] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:35:11] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1692 ms
+[INFO  2020-06-05 10:35:11] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:35:11] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:35:12] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:35:12] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:35:12] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:35:12] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:35:12] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:35:12] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.439 seconds (JVM running for 7.555)
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 7 ms
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-1] DiaryController.uploadPic(50) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-1] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.5hha9mTjDxAl4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-1] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-2] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`image`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-2] BaseDao.insert(77) | 【执行SQL】参数：[0,0,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p>jint <\/p><p>ssad<\/p><p><br><\/p><p>asdsad<\/p><p><br><\/p><p>qweqe<img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.5hha9mTjDxAl4b038c8febd34d7dd2bf9fd34b09561f.jpg\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p>",["http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.5hha9mTjDxAl4b038c8febd34d7dd2bf9fd34b09561f.jpg"],"北京市"]
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-2] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 10:35:39] [http-nio-8081-exec-2] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 10:38:15] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 9792 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:38:15] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:38:15] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:38:17] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:38:17] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:38:17] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:38:17] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:38:17] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:38:17] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1642 ms
+[INFO  2020-06-05 10:38:17] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:38:17] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:38:18] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:38:18] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:38:18] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:38:18] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:38:18] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:38:18] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.247 seconds (JVM running for 7.629)
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 11 ms
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-1] DiaryController.uploadPic(50) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-1] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.lcKGLnbbu04Y41b46ea86b4a62c07315e162ed1caf23.jpg
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-1] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-2] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`image`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-2] BaseDao.insert(77) | 【执行SQL】参数：[0,1,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p>appp<\/p><p>ss<\/p><p><br><\/p><p>adasdsa<img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.lcKGLnbbu04Y41b46ea86b4a62c07315e162ed1caf23.jpg\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p>",["http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.lcKGLnbbu04Y41b46ea86b4a62c07315e162ed1caf23.jpg"],"北京市"]
+[INFO  2020-06-05 10:39:04] [http-nio-8081-exec-2] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 10:39:05] [http-nio-8081-exec-2] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 10:42:09] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 15464 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 10:42:09] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 10:42:10] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 10:42:11] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 10:42:11] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:42:11] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 10:42:11] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 10:42:11] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 10:42:11] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1647 ms
+[INFO  2020-06-05 10:42:12] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 10:42:12] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 10:42:12] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 10:42:12] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 10:42:12] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 10:42:12] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 10:42:12] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 10:42:12] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.279 seconds (JVM running for 7.273)
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-2] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-2] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-2] DispatcherServlet.initServletBean(547) | Completed initialization in 10 ms
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-1] DiaryController.uploadPic(50) | -----图片类型-----image/png
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-2] DiaryController.uploadPic(50) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-1] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.YjOm9Asq2LW9369bafafc4d0abb77edfba640db47038.png
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-2] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.7M5YSUb3iJHo4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-2] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-1] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-3] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`now_city`) VALUES (?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-3] BaseDao.insert(77) | 【执行SQL】参数：[0,1,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p><img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.YjOm9Asq2LW9369bafafc4d0abb77edfba640db47038.png\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><img src=\"http://tmp/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.7M5YSUb3iJHo4b038c8febd34d7dd2bf9fd34b09561f.jpg\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p><br><\/p>","北京市"]
+[INFO  2020-06-05 10:42:23] [http-nio-8081-exec-3] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 10:42:24] [http-nio-8081-exec-3] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-5] DiaryController.uploadPic(50) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-5] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.K7cFYdxeX2q24b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-5] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-6] DiaryController.uploadPic(50) | -----图片类型-----image/png
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-6] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.UVcHJlF5AL1L369bafafc4d0abb77edfba640db47038.png
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-6] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-7] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`images`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 10:45:16] [http-nio-8081-exec-7] BaseDao.insert(77) | 【执行SQL】参数：[0,1,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p><img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.K7cFYdxeX2q24b038c8febd34d7dd2bf9fd34b09561f.jpg\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><img src=\"http://tmp/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.UVcHJlF5AL1L369bafafc4d0abb77edfba640db47038.png\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p><br><\/p>","http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.K7cFYdxeX2q24b038c8febd34d7dd2bf9fd34b09561f.jpg,http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.UVcHJlF5AL1L369bafafc4d0abb77edfba640db47038.png,","北京市"]
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-8] DiaryController.uploadPic(50) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-8] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.K7cFYdxeX2q24b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-8] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-9] DiaryController.uploadPic(50) | -----图片类型-----image/png
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-9] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.UVcHJlF5AL1L369bafafc4d0abb77edfba640db47038.png
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-9] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-10] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`images`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 10:45:50] [http-nio-8081-exec-10] BaseDao.insert(77) | 【执行SQL】参数：[0,1,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p><img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.K7cFYdxeX2q24b038c8febd34d7dd2bf9fd34b09561f.jpg\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><img src=\"http://tmp/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.UVcHJlF5AL1L369bafafc4d0abb77edfba640db47038.png\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p><br><\/p>","http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.K7cFYdxeX2q24b038c8febd34d7dd2bf9fd34b09561f.jpg,http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.UVcHJlF5AL1L369bafafc4d0abb77edfba640db47038.png,","北京市"]
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-2] DiaryController.uploadPic(50) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-2] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.9FAesid8RcRm4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-2] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-3] DiaryController.uploadPic(50) | -----图片类型-----image/png
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-3] DiaryController.uploadPic(56) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.LtO0SIyzzaTx4cda1e838bcdc61aed924f7f2ebfea0e.png
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-3] DiaryController.uploadPic(60) | 上传成功
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-4] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`week`,`images`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 10:49:13] [http-nio-8081-exec-4] BaseDao.insert(77) | 【执行SQL】参数：[0,1,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p><img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.9FAesid8RcRm4b038c8febd34d7dd2bf9fd34b09561f.jpg\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p><img src=\"http://tmp/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.LtO0SIyzzaTx4cda1e838bcdc61aed924f7f2ebfea0e.png\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p><br><\/p>","周五","http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.9FAesid8RcRm4b038c8febd34d7dd2bf9fd34b09561f.jpg,http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.LtO0SIyzzaTx4cda1e838bcdc61aed924f7f2ebfea0e.png,","北京市"]
+[INFO  2020-06-05 11:16:22] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 20252 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 11:16:22] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 11:16:22] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 11:16:24] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 11:16:24] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 11:16:24] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 11:16:24] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 11:16:24] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 11:16:24] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1690 ms
+[INFO  2020-06-05 11:16:24] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 11:16:25] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 11:16:25] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 11:16:25] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 11:16:25] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 11:16:25] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 11:16:25] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 11:16:25] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.315 seconds (JVM running for 7.441)
+[INFO  2020-06-05 11:16:47] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 11:16:47] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 11:16:47] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 8 ms
+[INFO  2020-06-05 11:17:07] [http-nio-8081-exec-2] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 11:17:08] [http-nio-8081-exec-2] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 11:24:54] [http-nio-8081-exec-8] DiaryController.uploadPic(55) | -----图片类型-----image/jpeg
+[INFO  2020-06-05 11:24:54] [http-nio-8081-exec-8] DiaryController.uploadPic(61) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.ezie1vM8BqbA4b038c8febd34d7dd2bf9fd34b09561f.jpg
+[INFO  2020-06-05 11:24:54] [http-nio-8081-exec-9] DiaryController.uploadPic(55) | -----图片类型-----image/png
+[INFO  2020-06-05 11:24:54] [http-nio-8081-exec-9] DiaryController.uploadPic(61) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.WJCYDDN97nRN4cda1e838bcdc61aed924f7f2ebfea0e.png
+[INFO  2020-06-05 11:24:54] [http-nio-8081-exec-8] DiaryController.uploadPic(65) | 上传成功
+[INFO  2020-06-05 11:24:54] [http-nio-8081-exec-9] DiaryController.uploadPic(65) | 上传成功
+[INFO  2020-06-05 11:24:55] [http-nio-8081-exec-10] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`week`,`images`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 11:24:55] [http-nio-8081-exec-10] BaseDao.insert(77) | 【执行SQL】参数：[0,1,"2020-06-05 10:05:16","2020-06-05 周五","晴","duoyun","<p><img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.ezie1vM8BqbA4b038c8febd34d7dd2bf9fd34b09561f.jpg\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p><img src=\"http://tmp/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.WJCYDDN97nRN4cda1e838bcdc61aed924f7f2ebfea0e.png\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p><br><\/p><p>hahahaha<\/p><p><br><\/p><p>嘟嘟嘟<\/p><p><br><\/p><p><br><\/p>","周五","http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.ezie1vM8BqbA4b038c8febd34d7dd2bf9fd34b09561f.jpg,http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.WJCYDDN97nRN4cda1e838bcdc61aed924f7f2ebfea0e.png,","北京市"]
+[INFO  2020-06-05 11:28:13] [http-nio-8081-exec-4] DiaryController.uploadPic(55) | -----图片类型-----image/png
+[INFO  2020-06-05 11:28:13] [http-nio-8081-exec-4] DiaryController.uploadPic(61) | --------图片名称--------wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.0NlUedSFfB6A4cda1e838bcdc61aed924f7f2ebfea0e.png
+[INFO  2020-06-05 11:28:13] [http-nio-8081-exec-4] DiaryController.uploadPic(65) | 上传成功
+[INFO  2020-06-05 11:28:13] [http-nio-8081-exec-5] BaseDao.insert(76) | 【执行SQL】SQL：INSERT INTO `diary` (`id_diary`,`id_user`,`time_full`,`time_simple`,`wea`,`wea_img`,`html`,`week`,`images`,`now_city`) VALUES (?,?,?,?,?,?,?,?,?,?)
+[INFO  2020-06-05 11:28:13] [http-nio-8081-exec-5] BaseDao.insert(77) | 【执行SQL】参数：[0,1,"2020-06-05 10:05:16","2020-06-05","晴","duoyun","<p><img src=\"http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.0NlUedSFfB6A4cda1e838bcdc61aed924f7f2ebfea0e.png\" width=\"80%\" data-custom=\"id=abcd&amp;role=god\"><\/p><p><br><\/p><p>hahahaha<\/p><p><br><\/p><p>猪猪猪猪<\/p><p><br><\/p><p><br><\/p><p><br><\/p>","周五","http://localhost:8081/html/diary/wxc9b7a56c4ba1cc56.o6zAJswIlDvwfPKGmS9ZFc_2sOFc.0NlUedSFfB6A4cda1e838bcdc61aed924f7f2ebfea0e.png,","北京市"]
+[WARN  2020-06-05 14:14:03] [http-nio-8081-exec-2] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25eac93b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:08] [http-nio-8081-exec-2] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3022a907 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:13] [http-nio-8081-exec-2] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@432c382 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:18] [http-nio-8081-exec-2] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78d6ae73 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:23] [http-nio-8081-exec-2] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4fa5ac1d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:28] [http-nio-8081-exec-2] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66c249e6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:36] [http-nio-8081-exec-3] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a44c9f0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:41] [http-nio-8081-exec-3] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a5b4516 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN  2020-06-05 14:14:46] [http-nio-8081-exec-3] PoolBase.isConnectionAlive(180) | HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5264a5bf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[INFO  2020-06-05 14:27:03] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 17944 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 14:27:03] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 14:27:03] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 14:27:05] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 14:27:05] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 14:27:05] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 14:27:05] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 14:27:05] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 14:27:05] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1776 ms
+[INFO  2020-06-05 14:27:05] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 14:27:05] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 14:27:06] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 14:27:06] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 14:27:06] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 14:27:06] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 14:27:06] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 14:27:06] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.421 seconds (JVM running for 7.618)
+[INFO  2020-06-05 14:27:21] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 14:27:21] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 14:27:21] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 10 ms
+[INFO  2020-06-05 14:27:21] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 14:27:22] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 14:31:09] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 28988 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 14:31:09] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 14:31:09] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 14:31:11] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8081 (http)
+[INFO  2020-06-05 14:31:11] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 14:31:11] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 14:31:11] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 14:31:11] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 14:31:11] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 1661 ms
+[INFO  2020-06-05 14:31:11] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 14:31:11] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 14:31:12] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 14:31:12] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 14:31:12] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 14:31:12] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8081"]
+[INFO  2020-06-05 14:31:12] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8081 (http) with context path ''
+[INFO  2020-06-05 14:31:12] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 3.33 seconds (JVM running for 7.424)
+[INFO  2020-06-05 14:55:37] [http-nio-8081-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 14:55:37] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 14:55:37] [http-nio-8081-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 8 ms
+[INFO  2020-06-05 14:55:38] [http-nio-8081-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 14:55:39] [http-nio-8081-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.
+[INFO  2020-06-05 15:33:30] [main] OnemorediaryApplication.logStarting(55) | Starting OnemorediaryApplication on s1y-PC with PID 32368 (D:\A_IDEA\onemorediary\target\classes started by s1y in D:\A_IDEA\onemorediary)
+[INFO  2020-06-05 15:33:30] [main] OnemorediaryApplication.logStartupProfileInfo(655) | The following profiles are active: prod
+[WARN  2020-06-05 15:33:30] [background-preinit] Jackson2ObjectMapperBuilder.warn(127) | For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[INFO  2020-06-05 15:33:32] [main] TomcatWebServer.initialize(92) | Tomcat initialized with port(s): 8080 (http)
+[INFO  2020-06-05 15:33:32] [main] Http11NioProtocol.log(173) | Initializing ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-05 15:33:32] [main] StandardService.log(173) | Starting service [Tomcat]
+[INFO  2020-06-05 15:33:32] [main] StandardEngine.log(173) | Starting Servlet engine: [Apache Tomcat/9.0.31]
+[INFO  2020-06-05 15:33:32] [main] [/].log(173) | Initializing Spring embedded WebApplicationContext
+[INFO  2020-06-05 15:33:32] [main] ContextLoader.prepareWebApplicationContext(284) | Root WebApplicationContext: initialization completed in 2005 ms
+[INFO  2020-06-05 15:33:32] [main] PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(69) | Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO  2020-06-05 15:33:33] [main] ThreadPoolTaskExecutor.initialize(181) | Initializing ExecutorService 'applicationTaskExecutor'
+[INFO  2020-06-05 15:33:33] [main] DocumentationPluginsBootstrapper.start(160) | Context refreshed
+[INFO  2020-06-05 15:33:33] [main] DocumentationPluginsBootstrapper.start(163) | Found 1 custom documentation plugin(s)
+[INFO  2020-06-05 15:33:33] [main] ApiListingReferenceScanner.scan(41) | Scanning for api listing references
+[INFO  2020-06-05 15:33:33] [main] Http11NioProtocol.log(173) | Starting ProtocolHandler ["http-nio-8080"]
+[INFO  2020-06-05 15:33:33] [main] TomcatWebServer.start(204) | Tomcat started on port(s): 8080 (http) with context path ''
+[INFO  2020-06-05 15:33:33] [main] OnemorediaryApplication.logStarted(61) | Started OnemorediaryApplication in 4.061 seconds (JVM running for 9.268)
+[INFO  2020-06-05 15:33:50] [http-nio-8080-exec-1] [/].log(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO  2020-06-05 15:33:50] [http-nio-8080-exec-1] DispatcherServlet.initServletBean(525) | Initializing Servlet 'dispatcherServlet'
+[INFO  2020-06-05 15:33:50] [http-nio-8080-exec-1] DispatcherServlet.initServletBean(547) | Completed initialization in 10 ms
+[INFO  2020-06-05 15:33:51] [http-nio-8080-exec-1] HikariDataSource.getConnection(110) | HikariPool-1 - Starting...
+[INFO  2020-06-05 15:33:52] [http-nio-8080-exec-1] HikariDataSource.getConnection(123) | HikariPool-1 - Start completed.

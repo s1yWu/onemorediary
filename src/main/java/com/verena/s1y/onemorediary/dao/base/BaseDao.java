@@ -73,8 +73,8 @@ public class BaseDao<T, P> {
 		Object[] values = filterField.stream().map(field -> ReflectUtil.getFieldValue(t, field)).toArray();
 
 		String sql = StrUtil.format("INSERT INTO {table} ({columns}) VALUES ({params})", Dict.create().set("table", table).set("columns", columns).set("params", params));
-		log.debug("【执行SQL】SQL：{}", sql);
-		log.debug("【执行SQL】参数：{}", JSONUtil.toJsonStr(values));
+		log.info("【执行SQL】SQL：{}", sql);
+		log.info("【执行SQL】参数：{}", JSONUtil.toJsonStr(values));
 		return jdbcTemplate.update(sql, values);
 	}
 
